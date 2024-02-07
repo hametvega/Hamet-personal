@@ -9,4 +9,3 @@ while Numero != Secreto:
         print("El numero es menor ⬇️")
     Numero = int(input("🫤 Intentalo otra vez"))
 print("🎉Felicidades! El numero secreto es:",Secreto)
-
