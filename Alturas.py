@@ -10,3 +10,4 @@ cobran entre $10.000.000 y $300.000  y cuántos cobran más de
 $3000.000. Además el programa deberá informar el importe que 
 gasta la empresa en sueldos al personal.
 """
+
