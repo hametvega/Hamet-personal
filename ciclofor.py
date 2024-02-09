@@ -36,41 +36,39 @@ b) Imprimir dichos promedios (promedio de cada turno)
 c) Mostrar por pantalla un mensaje que indique cual de 
 los tres turnos tiene un promedio de edades mayor."""
 
-Mañana=6
-pm=0
-ptm=0
-promm=0
-Tarde=7
-pt=0
-ptt=0
-promt=0
-Noche=12
-ptn=0
-pa=0
-promn=0
+# Mañana=6
+# pm=0
+# ptm=0
+# promm=0
+# Tarde=7
+# pt=0
+# ptt=0
+# promt=0
+# Noche=12
+# ptn=0
+# pa=0
+# promn=0
 
-for Mañana in range (1,7):
-    pm=int(input("ingresa las edades de lo estudiantes de la mañana_:"))
-    ptm=ptm+pm
-    promm=ptm/6
-print("-----------------------------------------------------")
-for Tarde in range (1,8):
-    pt=int(input("ingresa las edades de lo estudiantesde la tarde_:"))
-    ptt=ptt+pt
-    promt=ptt/7
-print("-----------------------------------------------------")
-for Noche in range (1,13):
-    pn=int(input("ingresa las edades de lo estudiantes de la noche_:"))
-    ptn=ptn+pn
-    pormn=ptn/12
-    print("-----------------------------------------------------")
-    if ptm > ptt:
-        print("El curso con el mayor promedio es el de la maña con",ptm)
-        print("-----------------------------------------------------")
-    elif ptm<ptt:
-        print("el curso con mayor promedio es_:",ptn)
-        print("-----------------------------------------------------")
-    else:
-        print("el curso con mayor promedio es_:",ptn)
+# for Mañana in range (1,7):
+#     pm=int(input("ingresa las edades de lo estudiantes de la mañana_:"))
+#     ptm=ptm+pm
+#     promm=ptm/6
+# print("-----------------------------------------------------")
+# for Tarde in range (1,8):
+#     pt=int(input("ingresa las edades de lo estudiantesde la tarde_:"))
+#     ptt=ptt+pt
+#     promt=ptt/7
+# print("-----------------------------------------------------")
+# for Noche in range (1,13):
+#     pn=int(input("ingresa las edades de lo estudiantes de la noche_:"))
+#     ptn=ptn+pn
+#     pormn=ptn/12
 
-
+# if ptm > ptt:
+#     print("El curso con el mayor promedio es el de la maña con",ptm)
+#     print("-----------------------------------------------------")
+# elif ptm<ptt:
+#     print("el curso con mayor promedio es_:",ptn)
+#     print("-----------------------------------------------------")
+# else:
+#     print("el curso con mayor promedio es_:",ptn)
