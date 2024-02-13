@@ -4,8 +4,8 @@ Personas={
     "Estatura": 1.65,
     "Edad":17,
     "Email":"hamet2303@gmail.com",
-    "Ciudad_Nacimiento":"Bogotá"
-    
+    "Ciudad_Nacimiento":"Bogotá",
+    "Genero":["Femenino","Masculino","otro"]
 }
 print(Personas)
 #para acceder a un dato en concreto
@@ -22,3 +22,8 @@ print(Personas)
 #eliminar elementos
 del Personas["celular"]
 print (Personas)
+#iterar los items de las clves
+for clave,valor in Personas.items():
+    print(clave + ":" + valor)
+print(Personas)
+
